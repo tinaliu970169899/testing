@@ -371,24 +371,24 @@ export default function App() {
               featured: "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?auto=format&fit=crop&q=80&w=1200",
               desc: "全球最大的免費冥想資源庫，擁有上萬種引導。內容包含正念、睡眠與情緒調節。",
               web: "https://insighttimer.com/",
-              ios: "https://apps.apple.com/app/insight-timer-meditation-app/id437235439",
-              android: "https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite"
+              ios: "https://apps.apple.com/tw/app/insight-timer-meditate-sleep/id337472899",
+              android: "https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite2"
             },
             {
-              name: "The Breathing App",
+              name: "Peace",
               featured: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=1200",
-              desc: "由知名瑜珈老師 Eddie Stern 研發。極簡介面，透過視覺引導調節呼吸頻率，有效平衡自主神經系統。",
-              web: "https://thebreathing.app/",
-              ios: "https://apps.apple.com/app/the-breathing-app/id1285034367",
-              android: "https://play.google.com/store/apps/details?id=com.thebreathingapp"
+              desc: "Peace收錄了超過200種冥想練習課程，並會根據新手和已經有冥想經驗的使用者推薦不同的訓練課程，其中冥想課程則又分為基礎課程、療癒課程、情感課程、意識指引四大類別，幫助使用者依照自己想達成的目標選擇不一樣的練習。",
+              web: "https://peace-app.com/",
+              ios: "https://apps.apple.com/tw/app/peace-breathe-relax-calm/id6758351591",
+              android: "https://play.google.com/store/apps/details?id=com.peace.ahc&hl=zh_TW"
             },
             {
               name: "Tide (潮汐)",
               featured: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&q=80&w=1200",
               desc: "將自然環境音與冥想結合。提供番茄鐘、睡眠與正念練習，設計極致簡潔優雅。",
               web: "https://tide.fm/",
-              ios: "https://apps.apple.com/app/tide-sleep-meditation/id1077776529",
-              android: "https://play.google.com/store/apps/details?id=com.moreless.tide"
+              ios: "https://apps.apple.com/cn/app/%E6%BD%AE%E6%B1%90-%E7%9D%A1%E7%9C%A0%E7%9B%91%E6%B5%8B-%E5%8A%A9%E7%9C%A0-%E6%A2%A6%E8%AF%9D%E6%89%93%E9%BC%BE-%E5%86%A5%E6%83%B3-%E7%99%BD%E5%99%AA%E9%9F%B3-hrv%E5%8E%8B%E5%8A%9B/id1077776989",
+              android: "https://play.google.com/store/apps/details?id=io.moreless.tide&hl=zh_TW"
             }
           ].map((app, index) => (
             <div key={index} className="border-b border-clean-border last:border-0 pb-12 last:pb-0">
